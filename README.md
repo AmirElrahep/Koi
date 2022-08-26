@@ -27,8 +27,8 @@ development of Koi.
 * Material UI
 * Node
 * Express
+* MySQL
 * AWS - RDS
-* SQL
 
 ## Demo
 
