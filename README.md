@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Koi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple social media platform.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [General Information](#general-information)
+    * [Built With](#built-with)
+* [Demo](#demo)
+* [Features](#features)
+* [Setup](#setup)
+    * [Prerequisites & Useful Links](#prerequisites--useful-links)
+    * [How to Build](#how-to-build)
+* [Contact](#contact)
 
-### `npm start`
+## General Information
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Koi was created with the goal of allowing users to communicate with one another through Posts, Comments, and Direct
+Messages. This enables each Koi user to have their own distinct online identity. Similar to other social media
+platforms, Koi enables connections between users all around the world. However, some ideas, such as Direct Messages,
+are not included in the initial release of the application and are key components of our future plan for the
+development of Koi.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Built With
 
-### `npm test`
+* React
+* Material UI
+* Node
+* Express
+* AWS - RDS
+* SQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+[Koi Demo Video](https://youtu.be/O8nMrVX6wjo)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Account verification through email for resetting password
+* Search for and send friend requests
+* Accept or deny friend requests
+* CRUD functionality for posts
+* Commenting and liking posts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
 
-### `npm run eject`
+The following is the installation process for this project on IntelliJ IDEA.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites & Useful Links
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+IntelliJ IDEA - [IntelliJ IDEA Download](https://www.jetbrains.com/idea/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### How to Build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Follow the download instructions for IntelliJ IDEA.
+2. Clone the project - https://github.com/AmirElrahep/Koi.git
+3. Navigate to the edit configurations window and add a new npm configuration
+4. Name the configuration "npm start"
+5. Change the command to "run" and the scrips to "start"
+6. Apply the changes and run the app
+7. Open [http://localhost:3000](http://localhost:3000) to view it in your browser if it does not open automatically.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Amir Elrahep - [LinkedIn](https://www.linkedin.com/in/amir-elrahep/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cooper Wainczak - [LinkedIn](https://www.linkedin.com/in/cooperwainczak/)
